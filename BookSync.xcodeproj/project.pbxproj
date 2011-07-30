@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A61955E13E46D66003AD110 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A61955D13E46D66003AD110 /* Cocoa.framework */; };
+		1A61956813E46D66003AD110 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A61956613E46D66003AD110 /* InfoPlist.strings */; };
+		1A61956A13E46D66003AD110 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A61956913E46D66003AD110 /* main.m */; };
+		1A61956E13E46D66003AD110 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 1A61956C13E46D66003AD110 /* Credits.rtf */; };
+		1A61957113E46D66003AD110 /* BookSyncAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A61957013E46D66003AD110 /* BookSyncAppDelegate.m */; };
+		1A61957413E46D66003AD110 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A61957213E46D66003AD110 /* MainMenu.xib */; };
+		1A61957C13E46D67003AD110 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A61957B13E46D67003AD110 /* SenTestingKit.framework */; };
+		1A61957D13E46D67003AD110 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A61955D13E46D66003AD110 /* Cocoa.framework */; };
+		1A61958513E46D67003AD110 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A61958313E46D67003AD110 /* InfoPlist.strings */; };
+		1A61958713E46D67003AD110 /* BookSyncTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 1A61958613E46D67003AD110 /* BookSyncTests.h */; };
+		1A61958913E46D67003AD110 /* BookSyncTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A61958813E46D67003AD110 /* BookSyncTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A61957E13E46D67003AD110 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A61955013E46D66003AD110 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A61955813E46D66003AD110;
+			remoteInfo = BookSync;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A61955913E46D66003AD110 /* BookSync.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookSync.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A61955D13E46D66003AD110 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		1A61956013E46D66003AD110 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		1A61956113E46D66003AD110 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		1A61956213E46D66003AD110 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1A61956513E46D66003AD110 /* BookSync-Info.plist */ = {isa = PBXFileReference; path = "BookSync-Info.plist"; sourceTree = "<group>"; };
+		1A61956713E46D66003AD110 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1A61956913E46D66003AD110 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1A61956B13E46D66003AD110 /* BookSync-Prefix.pch */ = {isa = PBXFileReference; path = "BookSync-Prefix.pch"; sourceTree = "<group>"; };
+		1A61956D13E46D66003AD110 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		1A61956F13E46D66003AD110 /* BookSyncAppDelegate.h */ = {isa = PBXFileReference; path = BookSyncAppDelegate.h; sourceTree = "<group>"; };
+		1A61957013E46D66003AD110 /* BookSyncAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookSyncAppDelegate.m; sourceTree = "<group>"; };
+		1A61957313E46D66003AD110 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		1A61957A13E46D67003AD110 /* BookSyncTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookSyncTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A61957B13E46D67003AD110 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		1A61958213E46D67003AD110 /* BookSyncTests-Info.plist */ = {isa = PBXFileReference; path = "BookSyncTests-Info.plist"; sourceTree = "<group>"; };
+		1A61958413E46D67003AD110 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1A61958613E46D67003AD110 /* BookSyncTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BookSyncTests.h; sourceTree = "<group>"; };
+		1A61958813E46D67003AD110 /* BookSyncTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookSyncTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A61955613E46D66003AD110 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A61955E13E46D66003AD110 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A61957613E46D67003AD110 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A61957C13E46D67003AD110 /* SenTestingKit.framework in Frameworks */,
+				1A61957D13E46D67003AD110 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A61954E13E46D66003AD110 = {
+			isa = PBXGroup;
+			children = (
+				1A61956313E46D66003AD110 /* BookSync */,
+				1A61958013E46D67003AD110 /* BookSyncTests */,
+				1A61955C13E46D66003AD110 /* Frameworks */,
+				1A61955A13E46D66003AD110 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A61955A13E46D66003AD110 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A61955913E46D66003AD110 /* BookSync.app */,
+				1A61957A13E46D67003AD110 /* BookSyncTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A61955C13E46D66003AD110 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A61955D13E46D66003AD110 /* Cocoa.framework */,
+				1A61957B13E46D67003AD110 /* SenTestingKit.framework */,
+				1A61955F13E46D66003AD110 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1A61955F13E46D66003AD110 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A61956013E46D66003AD110 /* AppKit.framework */,
+				1A61956113E46D66003AD110 /* CoreData.framework */,
+				1A61956213E46D66003AD110 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		1A61956313E46D66003AD110 /* BookSync */ = {
+			isa = PBXGroup;
+			children = (
+				1A61956F13E46D66003AD110 /* BookSyncAppDelegate.h */,
+				1A61957013E46D66003AD110 /* BookSyncAppDelegate.m */,
+				1A61957213E46D66003AD110 /* MainMenu.xib */,
+				1A61956413E46D66003AD110 /* Supporting Files */,
+			);
+			path = BookSync;
+			sourceTree = "<group>";
+		};
+		1A61956413E46D66003AD110 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A61956513E46D66003AD110 /* BookSync-Info.plist */,
+				1A61956613E46D66003AD110 /* InfoPlist.strings */,
+				1A61956913E46D66003AD110 /* main.m */,
+				1A61956B13E46D66003AD110 /* BookSync-Prefix.pch */,
+				1A61956C13E46D66003AD110 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1A61958013E46D67003AD110 /* BookSyncTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A61958613E46D67003AD110 /* BookSyncTests.h */,
+				1A61958813E46D67003AD110 /* BookSyncTests.m */,
+				1A61958113E46D67003AD110 /* Supporting Files */,
+			);
+			path = BookSyncTests;
+			sourceTree = "<group>";
+		};
+		1A61958113E46D67003AD110 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A61958213E46D67003AD110 /* BookSyncTests-Info.plist */,
+				1A61958313E46D67003AD110 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A61955813E46D66003AD110 /* BookSync */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A61958C13E46D67003AD110 /* Build configuration list for PBXNativeTarget "BookSync" */;
+			buildPhases = (
+				1A61955513E46D66003AD110 /* Sources */,
+				1A61955613E46D66003AD110 /* Frameworks */,
+				1A61955713E46D66003AD110 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BookSync;
+			productName = BookSync;
+			productReference = 1A61955913E46D66003AD110 /* BookSync.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A61957913E46D67003AD110 /* BookSyncTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A61958F13E46D67003AD110 /* Build configuration list for PBXNativeTarget "BookSyncTests" */;
+			buildPhases = (
+				1A61957513E46D67003AD110 /* Sources */,
+				1A61957613E46D67003AD110 /* Frameworks */,
+				1A61957713E46D67003AD110 /* Resources */,
+				1A61957813E46D67003AD110 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A61957F13E46D67003AD110 /* PBXTargetDependency */,
+			);
+			name = BookSyncTests;
+			productName = BookSyncTests;
+			productReference = 1A61957A13E46D67003AD110 /* BookSyncTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A61955013E46D66003AD110 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Clickable Bliss";
+			};
+			buildConfigurationList = 1A61955313E46D66003AD110 /* Build configuration list for PBXProject "BookSync" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1A61954E13E46D66003AD110;
+			productRefGroup = 1A61955A13E46D66003AD110 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A61955813E46D66003AD110 /* BookSync */,
+				1A61957913E46D67003AD110 /* BookSyncTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A61955713E46D66003AD110 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A61956813E46D66003AD110 /* InfoPlist.strings in Resources */,
+				1A61956E13E46D66003AD110 /* Credits.rtf in Resources */,
+				1A61957413E46D66003AD110 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A61957713E46D67003AD110 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A61958513E46D67003AD110 /* InfoPlist.strings in Resources */,
+				1A61958713E46D67003AD110 /* BookSyncTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A61957813E46D67003AD110 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A61955513E46D66003AD110 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A61956A13E46D66003AD110 /* main.m in Sources */,
+				1A61957113E46D66003AD110 /* BookSyncAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A61957513E46D67003AD110 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A61958913E46D67003AD110 /* BookSyncTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A61957F13E46D67003AD110 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A61955813E46D66003AD110 /* BookSync */;
+			targetProxy = 1A61957E13E46D67003AD110 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1A61956613E46D66003AD110 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A61956713E46D66003AD110 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1A61956C13E46D66003AD110 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A61956D13E46D66003AD110 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		1A61957213E46D66003AD110 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A61957313E46D66003AD110 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		1A61958313E46D67003AD110 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A61958413E46D67003AD110 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A61958A13E46D67003AD110 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1A61958B13E46D67003AD110 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1A61958D13E46D67003AD110 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BookSync/BookSync-Prefix.pch";
+				INFOPLIST_FILE = "BookSync/BookSync-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1A61958E13E46D67003AD110 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BookSync/BookSync-Prefix.pch";
+				INFOPLIST_FILE = "BookSync/BookSync-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1A61959013E46D67003AD110 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BookSync.app/Contents/MacOS/BookSync";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BookSync/BookSync-Prefix.pch";
+				INFOPLIST_FILE = "BookSyncTests/BookSyncTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		1A61959113E46D67003AD110 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BookSync.app/Contents/MacOS/BookSync";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BookSync/BookSync-Prefix.pch";
+				INFOPLIST_FILE = "BookSyncTests/BookSyncTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A61955313E46D66003AD110 /* Build configuration list for PBXProject "BookSync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A61958A13E46D67003AD110 /* Debug */,
+				1A61958B13E46D67003AD110 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A61958C13E46D67003AD110 /* Build configuration list for PBXNativeTarget "BookSync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A61958D13E46D67003AD110 /* Debug */,
+				1A61958E13E46D67003AD110 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1A61958F13E46D67003AD110 /* Build configuration list for PBXNativeTarget "BookSyncTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A61959013E46D67003AD110 /* Debug */,
+				1A61959113E46D67003AD110 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A61955013E46D66003AD110 /* Project object */;
+}
