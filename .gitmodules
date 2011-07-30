@@ -1,0 +1,3 @@
+[submodule "ThirdPartySource/submodules/MagicalRecord"]
+	path = ThirdPartySource/submodules/MagicalRecord
+	url = git@github.com:zorn/MagicalRecord.git
